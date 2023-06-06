@@ -93,4 +93,5 @@ const handleImageInput = async (e) => {
   $img.src = url +'/'+ data.filename
   console.log(data);
 };
+// input 첨부파일 올릴 때
 imageInput.addEventListener("change", handleImageInput);
