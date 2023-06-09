@@ -52,6 +52,7 @@ $btn.addEventListener("click", async () => {
   product(inputName, inputPrice, token);
 });
 
+//상품등록
 const product = async (inputName, inputPrice) => {
   const token = localStorage.getItem('token')
   const response = await fetch(url + "/product", {
